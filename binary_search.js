@@ -41,8 +41,4 @@ const doBinarySearch = (arr, targetValue) => {
     return -1;
 };
 
-
-// Пример использования функции
-let array = [1, 3, 4, 2, 55, 65, 34, 1];
-let elementToFind = 54;
-doBinarySearch(array, elementToFind);
+module.exports = doBinarySearch;
